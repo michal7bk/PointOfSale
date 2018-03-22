@@ -1,7 +1,9 @@
 package devices;
 
 public class LcdDisplay {
-    public void showOnDisplay(String message){
 
+
+
+    public void displayOnLcd(String message){
     }
 }
