@@ -13,8 +13,8 @@ import model.Receipt;
         private ProductDao productDao;
 
 
-        private final String productNotFound ="Product not found";
-        private final String emptyScannedCode ="Invalid bar-code";
+        public final static String PRODUCT_NOT_FOUND ="Product not found";
+        public final static String EMPTY_SCANNED_CODE ="Invalid bar-code";
 
 
         public void onExit(){
@@ -25,7 +25,7 @@ import model.Receipt;
         @Override
         public void onScan(String barCode) {
             if (barCode ==null || barCode.isEmpty()){
-                lcdDisplay.displayMesage(emptyScannedCode);
+                lcdDisplay.displayMesage(EMPTY_SCANNED_CODE);
             }else {
                 printProducts(barCode);
             }
@@ -37,7 +37,7 @@ import model.Receipt;
                 lcdDisplay.displayProduct(product);
                 receipt.addToReceipt(product);
             }else {
-                lcdDisplay.displayMesage(productNotFound);
+                lcdDisplay.displayMesage(PRODUCT_NOT_FOUND);
             }
 
         }
