@@ -1,13 +1,9 @@
 package devices;
 
-public class BarCodesScanner {
+public interface BarCodesScanner {
 
-    public String scanBarCode(){
+    public String scanBarCode();
 
-        String barCode = null;
 
-        // scanner implementation
 
-        return barCode;
-    }
 }

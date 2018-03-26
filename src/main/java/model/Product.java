@@ -34,4 +34,6 @@ public class Product {
     public void setBarCode(String barCode) {
         this.barCode = barCode;
     }
-}
+
+
+    }

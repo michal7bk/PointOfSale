@@ -13,7 +13,8 @@ public class Receipt {
         receipt.add(product);
     }
 
-    public double sumUp(Receipt receiptt){
+
+    public double sumUp(){
         for(int i=0;i< receipt.size();i++ ) {
             sum += receipt.get(i).getPrice();
         }
