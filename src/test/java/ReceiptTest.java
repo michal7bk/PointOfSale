@@ -3,7 +3,7 @@ import model.Receipt;
 import org.junit.Test;
 import static org.junit.Assert.*;
 public class ReceiptTest {
-    Receipt receipt = new Receipt();
+    private Receipt receipt = new Receipt();
     @Test
     public void shouldCountTotalPriceForReceipt(){
         //given

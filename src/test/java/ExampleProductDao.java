@@ -1,8 +1,6 @@
 import app.ProductDao;
 import model.Product;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class ExampleProductDao implements ProductDao {
 

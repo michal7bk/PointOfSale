@@ -13,6 +13,7 @@ public class LcdDisplay {
 
     public void displayMesage(String message){
     }
+
     public void displayTotalPrice(Double totalPrice){
 
     }
