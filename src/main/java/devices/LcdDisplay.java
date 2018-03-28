@@ -8,9 +8,12 @@ public class LcdDisplay {
     public void displayProduct(Product product){
     }
 
-    public void displayReceipt(Receipt receipt, double price){
+    public void displayReceipt(Receipt receipt){
     }
 
     public void displayMesage(String message){
+    }
+    public void displayTotalPrice(Double totalPrice){
+
     }
 }
